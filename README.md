@@ -3,7 +3,9 @@ Script for installing raspberry emulator on macOs
 
 1. Open Terminal 
 2. Give permission of execution to qemu.sh 
-  `chmod u+x qemu.sh`
+  ``` bash
+  chmod u+x qemu.sh
+  ```
   
 3. Run Script
   
