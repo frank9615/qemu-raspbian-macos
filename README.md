@@ -11,7 +11,7 @@ Script for installing raspberry emulator on macOs
   ``` bash
   ./qemu.sh
   ```
-4. Wait the installation. Inside qemu log with default user
+4. Wait the installation. Inside qemu, log with default user
   ```user: pi password: raspberry```
 5. Enable ssh on qemu 
   5.1. Inside qemu write :
