@@ -1,12 +1,12 @@
 #! /bin/bash
 #Install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+which -s brew && echo brew already  installed || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #Install wget
-brew install wget
+which -s brew && echo wget already installed || brew install wget
 
 #Install qemu
-brew install qemu
+which -s brew && echo qemu already installed || brew install qemu
 
 #Download Kernel
 wget https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/master/kernel-qemu-4.9.59-stretch
